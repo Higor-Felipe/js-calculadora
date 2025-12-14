@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2C2C2C;
+}
+
+.calculadora {
+    text-align: center;
+    padding: 10px;
+    background-color: #88304E;
+    border: 4px ridge #F7374F;
+}
+#display {
+    width: 95%;
+    font-size: 2em;
+    margin: 10px 0;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    box-shadow: 5px 5px 1px #522546;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    &:hover{
+        background-color: #2C2C2C;
+    }
+}
